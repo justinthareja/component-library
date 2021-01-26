@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(209deg 14% 30%);
+    --secondary-color: hsl(0, 0%, 90%);
+}
+
+body {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px 12px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.option-a {
+    border: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.option-b {
+    border: 1px solid var(--secondary-color);
+    background-color: white;
+}
+
+.option-c {
+    border: 2px solid var(--secondary-color);
+    background-color: white;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px hsl(0, 0%, 90%);
+}
+
+.primary {
+    background-color: hsl(209deg 14% 30%); 
+    color: white;
+}
+
+.option-a {
+    color: hsl(209deg 14% 30%);
+    background-color: hsl(0, 0%, 90%);
+}
+
+.option-b {
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 90%);
+}
+
+.option-c {
+    background-color: white;
+    border: 2px solid hsl(0, 0%, 90%);
+}
