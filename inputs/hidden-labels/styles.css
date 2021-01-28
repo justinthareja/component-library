@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* COLORS */
+:root {
+    --bg-color: #e7ebf0; 
+    --border-color: #dadae2;
+    --border-color-darker: #c9c9d3;
+    --text-color: #777b80;
+    --shadow-color: rgb(227, 228, 231);
+    --white: #fff;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+}
+
+.input-container {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-container.soft {
+    background-color: var(--white);
+}
+
+.input-header {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.input {
+    height: 36px;
+    width: 100%;
+    padding: 0 10px;
+
+    font-size: 16px;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.large-rounded {
+    border-radius: 9px;
+}
+
+.full-rounded {
+    border-radius: 20px;
+}
+
+.square {
+    border-radius: 0px;
+}
+
+.thick-border {
+    border: 3px solid var(--border-color);
+}
+
+.no-border {
+    border: none;
+}
+
+.inset-shadow {
+    box-shadow: 1px 1px 8px 1px var(--shadow-color) inset;
+}
+
+.box-shadow {
+    border: none;
+    box-shadow: 2px 3px 5px 2px var(--shadow-color);
+}
+
+.soft-background {
+    border: none;
+    background-color: var(--bg-color);
+}
+
+.bottom-border {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 3px solid var(--border-color-darker);
+}
+
+.bottom-border.placeholder {
+    padding-left: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.bottom-border.placeholder::placeholder {
+    color: var(--text-color);
+}
