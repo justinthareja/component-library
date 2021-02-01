@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS - Neutrals */
+    --grey-050: #F0F4F8;
+    --grey-100: #D9E2EC;
+    --grey-200: #BCCCDC;
+    --grey-300: #9FB3C8;
+    --grey-400: #829AB1;
+    --grey-500: #627D98;
+    --grey-600: #486581;
+    --grey-700: #334E68;
+    --grey-800: #243B53;
+    --grey-900: #102A43;
+
+    /* Spacing and Sizing System */
+    --w-1: 4px;
+    --w-2: 8px;
+    --w-3: 12px;
+    --w-4: 16px;
+    --w-5: 24px;
+    --w-6: 32px;
+    --w-7: 48px;
+    --w-8: 64px;
+    --w-9: 96px;
+    --w-10: 128px;
+    --w-11: 192px;
+    --w-12: 256px;
+    --w-13: 384px;
+    --w-14: 512px;
+    --w-15: 640px;
+    --w-16: 768px;
+}
+
+body {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+
+    color: var(--grey-900);
+    background-color: var(--grey-050);
+}
+
+.breadcrumbs {
+
+}
+
+.breadcrumb__item-container:first-of-type {
+    position: relative;
+    display: inline-block;
+    height: 48px;
+    width: 200px;
+
+    background-color: var(--grey-400);
+    clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+}
+
+.breadcrumb__item:first-of-type {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 46px;
+    width: 198px;
+
+    background-color:var(--grey-200);
+    clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+}
+
+.breadcrumb__item-container {
+    position: relative;
+    display: inline-block;
+    height: 48px;
+    width: 200px;
+
+    background-color: var(--grey-400);
+    clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+}
+
+.breadcrumb__item {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 46px;
+    width: 198px;
+
+    background-color:var(--grey-200);
+    clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+}
+
+.breadcrumb__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.breadcrumb--active {
+    background-color: var(--grey-100);
+}
