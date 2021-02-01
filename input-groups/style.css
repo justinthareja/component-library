@@ -81,4 +81,20 @@ body {
 
     border: none;
     border-radius: 0 var(--w-1) var(--w-1) 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--grey-600);
+}
+
+.button:active {
+    background-color: var(--grey-700);
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid var(--grey-300);
+    border-radius: var(--w-1) 0 0 var(--w-1);
+    caret-color: var(--grey-700);
 }
