@@ -5,18 +5,13 @@
 }
 
 .form__row {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .form__row--end {
     align-self: flex-end;
 }
 
-.error {
-    border-color: red;
-}
-
-.error-message {
-    color: red;
-    font-style: italic;
+.form__error {
+    margin-top: 0.5rem;
 }
