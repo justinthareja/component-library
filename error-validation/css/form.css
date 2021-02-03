@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+}
+
+.form__row {
+    margin-bottom: 1rem;
+}
+
+.form__row--end {
+    align-self: flex-end;
+}

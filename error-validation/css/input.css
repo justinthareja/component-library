@@ -1,0 +1,28 @@
+.input {
+    
+}
+
+.input__field {
+    height: 2.5rem;
+    width: 100%;
+    padding-left: 1rem;
+
+    font-size: 1rem;
+    color: var(--grey-900);
+    border: 1px solid var(--grey-200);
+    border-radius: 0.25rem;
+}
+
+.input__field:focus {
+    outline: none;
+    border: 1px solid var(--grey-300);
+    border-radius: 0.25rem;
+}
+
+.input__label {
+    display: block;
+    margin-bottom: 0.5rem;
+
+    font-size: 0.9rem;
+    color: var(--grey-900);
+}
