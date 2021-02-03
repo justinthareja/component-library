@@ -4,14 +4,18 @@
     width: 22rem;
 }
 
-.form__row {
+.form__input {
     margin-bottom: 1.5rem;
 }
 
-.form__row--end {
+.form__button {
     align-self: flex-end;
 }
 
 .form__error {
     margin-top: 0.5rem;
+}
+
+.form__error--attached {
+    margin-top: 0;
 }

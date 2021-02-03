@@ -3,9 +3,14 @@
     padding: 0.5rem 0.75rem;
     
     font-weight: 500;
-    border-radius: 0.4rem;
+    border-radius: 0.25rem;
     color: var(--grey-050);
     background-color: var(--grey-700);
+}
+
+.tooltip--flat-top {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
 
 .tooltip__pointer::after {

@@ -174,7 +174,7 @@ function showError(field, error) {
     let message = field.form.querySelector(`.error-message#error-for-${id}`);
     if (!message) {
         message = document.createElement("div");
-        message.className = "error-message";
+        message.className = "error-message form__error tooltip";
         message.id = `error-for-${id}`;
 
         // If the field is a radio button or checkbox, insert error after the label
