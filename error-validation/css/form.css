@@ -11,3 +11,12 @@
 .form__row--end {
     align-self: flex-end;
 }
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-style: italic;
+}
