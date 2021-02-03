@@ -5,6 +5,7 @@
 }
 
 .form__input {
+    position: relative;
     margin-bottom: 1.5rem;
 }
 
@@ -18,4 +19,12 @@
 
 .form__error--attached {
     margin-top: 0;
+}
+
+.form__error--right {
+    position: absolute;
+    left: 100%;
+    margin-left: 1rem;
+    top: 1rem;
+    width: 9rem;
 }
