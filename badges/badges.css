@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    
+    /* COLORS - Neutrals */
+    --grey-050: #F0F4F8;
+    --grey-100: #D9E2EC;
+    --grey-200: #BCCCDC;
+    --grey-300: #9FB3C8;
+    --grey-400: #829AB1;
+    --grey-500: #627D98;
+    --grey-600: #486581;
+    --grey-700: #334E68;
+    --grey-800: #243B53;
+    --grey-900: #102A43;
+}
+
+body {
+    min-height: 100vh;
+    padding: 30px;
+    background: var(--grey-050);
+}
+
+.badge {
+    padding: 2px 6px;
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.badge.solid-background {
+    background-color: var(--grey-700);
+    color: var(--grey-050);
+}
+
+.badge.full-rounded {
+    border-radius: 0.7rem;
+}
+
+.badge.soft-background {
+    background-color: var(--grey-100);
+    color: var(--grey-900);
+}
+
+.badge.thick-soft-border {
+    border: 2px solid var(--grey-200);
+}
+
+.badge.thin-soft-border {
+    border: 1px solid var(--grey-200);
+}
+
+
+.badge.small-rounded {
+    border-radius: 0.1rem;
+}
+
+.badge.gradient {
+    color: white;
+    background-image: linear-gradient(
+        to bottom, 
+        var(--grey-500),
+        var(--grey-900)
+    );
+}
+
+.badge.circle {
+    border-radius: 50%;
+}
+
+.badge.with-icon {
+    display: inline-flex;
+    padding-left: 2px;
+}
+
+
+.badge .icon {
+    height: 0.9rem;
+    margin-right: 2px;
+}
+
+
+.primary {
+    fill: black;
+}
+
+.secondary {
+    fill: white;
+}
